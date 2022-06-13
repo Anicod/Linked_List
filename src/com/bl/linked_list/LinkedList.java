@@ -23,7 +23,7 @@ public class LinkedList {
         else {
             test = start;
             for (int index = 1; index <= size; index++) {
-                System.out.println(test.getValue());
+                System.out.print(test.getValue()+" " );
                 test = test.getNext();
             }
         }
